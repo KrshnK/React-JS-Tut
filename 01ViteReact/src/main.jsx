@@ -2,12 +2,12 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 
-function MyApp(){
+function MyApp() {
   return (
     <div>
       <h1>Custom !</h1>
     </div>
-  )
+  );
 }
 
 // const ReactElement = {
@@ -20,22 +20,24 @@ function MyApp(){
 // }
 
 const AnotherElement = (
-  <a href='google.com' target="_blank">Visit me ! </a>
-)
-const usermane = "Naruto"
+  <a href="google.com" target="_blank">
+    Visit me !{" "}
+  </a>
+);
+const usermane = "Naruto";
 const ReactElement = React.createElement(
-  'a',
-  {href:'google.com',target:'_blank'},
-  'visit em lalala',
+  "a",
+  { href: "google.com", target: "_blank" },
+  "visit em lalala",
   usermane
-)
+);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   // <React.StrictMode>
 
-    // {/* <MyApp/> */},
-    ReactElement
-    // AnotherElement
+  // {/* <MyApp/> */},
+  ReactElement
+  // AnotherElement
 
   // </React.StrictMode>
 );
