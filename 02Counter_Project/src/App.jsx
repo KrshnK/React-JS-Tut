@@ -5,6 +5,7 @@ function App() {
   const AddValue = ()=>{
     console.log("Value Added", counter);
     counter++
+    
   }
   return (
     <>
