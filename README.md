@@ -46,6 +46,6 @@ Feel free to submit pull requests to improve this tutorial.
 
 ### License
 
-()[Lincese]
+[MIT LICENSE](LICENSE)
 
 
